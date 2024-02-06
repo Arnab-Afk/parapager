@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from langchain import PromptTemplate
+from langchain.prompts import PromptTemplate
 from langchain_community.document_loaders import WebBaseLoader
 from langchain.schema import StrOutputParser
 from langchain.schema.prompt_template import format_document
