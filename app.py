@@ -7,7 +7,7 @@ from flask_cors import CORS
 import os   
 app = Flask(__name__)
 CORS(app) 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA4Kyt5llmYRxDkXfJ5yEX5iRu6wiBNgbM"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyAPTMyEWrmeaUU-OgxO08fShS1YhFObFkY"
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 @app.route('/api', methods=['POST'])
